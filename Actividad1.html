@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacos "EL jefe"</title>
+</head>
+<body>
+    <header>
+        <h1>Tacos "Peludos"</h1>
+        <h2>Para chuparse los bigotes</h2>
+    </header>
+
+    <img src="" alt="Logo de Tacos"/>
+
+    <section>
+        <h2>Menu</h2>
+    <h3>Tacos Grandes</h3>
+    <p>Incluye nopales y cebollas asadas</p>
+    <ul>
+        <li>Bistec..........................................$20</li>
+        <li>Chuleta.........................................$20</li>
+        <li>Longaniza.......................................$20</li>
+        <li>Pollo...........................................$20</li>
+        <li>Capmpechano.....................................$20</li>
+    </ul>
+    <h3>Tacos Medianos</h3>
+    <p>Incluye nopales y cebollas asadas</p>
+    <ul>
+        <li>Bistec..........................................$10</li>
+        <li>Chuleta.........................................$10</li>
+        <li>Longaniza.......................................$10</li>
+        <li>Pollo...........................................$10</li>
+        <li>Capmpechano.....................................$10</li>
+    </ul>
+
+    <h3>Especiales</h3>
+    <p>Incluye nopales y cebollas asadas, más $10 incluye refresco</p>
+    <dl>
+        <dt><b>Gato Retazos</b></dt>
+        <dd>-Tortilla de harina, aguacate</dd>
+        <dt><b>Gato Gris</b></dt>
+        <dd>-Tortilla de harina, aguacate</dd>
+        <dt><b>Gato Naranja</b></dt>
+        <dd>-Tortilla de harina, aguacate</dd>
+        <dt><b>Gato Negro</b></dt>
+        <dd>-Tortilla de harina, aguacate</dd>
+    </dl>
+    </section>
+
+    <section>
+        <hr>
+    <h2>Ubicación</h2>
+    <h3>Sucursales</h3>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Ubicación</th>
+            <th>Horarios</th>
+        </tr>
+        <tr>
+            <td>Peludos "Centro"</td>
+            <td>
+                <a href="https://goo.gl/maps/8F6ijwzzrSKPBrLe7" target="_blank">CDMX, Centro.</a>
+            </td>
+            <td>Todas los días 24H</td>
+        </tr>
+        <tr>
+            <td>Peludos "Norte"</td>
+            <td>
+                <a href="https://goo.gl/maps/qE3prnEdMqVrsjBH7" target="_blank">CDMX, Norte</a>
+            </td>
+            <td>Viernes a Sábados de 7am-12am</td>
+        </tr>
+        <tr>
+            <td>Peludos "Sur"</td>
+            <td>
+                <a href="https://goo.gl/maps/rhziyYiR1gPViuYK9" target="_blank">CDMX, Sur</a>
+            </td>
+            <td>Miéroles a Domingo de 12pm a 3am</td>
+        </tr>
+    </table>
+    </section>
+
+    <section>
+        <hr>
+
+    <h2>Pedidos</h2>
+    <h3>Haz tu pedido aqui</h3>
+
+    <form>
+        <p>Selecciona tu sucursal</p>
+        <select>
+            <option value="Centro">Centro</option>
+            <option value="Norte">Norte</option>
+            <option value="Sur">Sur</option>
+        </select>
+
+        <p>¿Qué vamos a comer hoy?</p>
+        <input type="checkbox" id="Bistec" name="Bistec" value="Bistec">
+        <label for="Bistec">Tacos de Bistec</label>
+        <input type="number" id="TotalBistec" name="TotalBistec" placeholder="¿Cuántos">
+        <br>
+        <input type="checkbox" id="Chuleta" name="Chuleta" value="Chuleta">
+        <label for="Chuleta">Tacos de Chuleta</label>
+        <input type="number" id="TotalChuleta" name="TotalChuleta" placeholder="¿Cuántos">
+        <br>
+        <input type="checkbox" id="Longaniza" name="Longaniza" value="Longaniza">
+        <label for="Longaniza">Tacos de Longaniza</label>
+        <input type="number" id="TotalLoganiza" name="TotalLoganiza" placeholder="¿Cuántos">
+        <br>
+
+        <p>Vamos a conocernos</p>
+        <label for="Nombre">Nombre:</label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="¿Cuál es tu nombre?">
+        <br>
+        <label for="Telefono">Telefono:</label>
+        <input type="text" id="Telefono" name="Telefono" placeholder="¿Cuál es tu telefono?">
+        <br>
+        <label for="Direccion">Dirección:</label>
+        <input type="text" id="Direccion" name="Direccion" placeholder="¿Cuál es tu nombre? ">
+
+        <br>
+
+        <button type="submit">Enviar pedido</button>
+    </form>
+
+    </section>
+</body>
+
+</html>
